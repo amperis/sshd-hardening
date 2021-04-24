@@ -3,8 +3,9 @@
 Editar /etc/ssh/sshd_config
 
 1) Cambiar el puerto por defecto del Daemon de SSH
-
+```
 Port 10022
+```
 
 2. Numero de intentos de conexión fallida antes de cerrar la sesion establecida a un usuario
 
