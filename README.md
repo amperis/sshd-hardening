@@ -2,7 +2,7 @@
 
 Editar /etc/ssh/sshd_config
 
-1. Cambiar el puerto por defecto del Daemon de SSH
+1) Cambiar el puerto por defecto del Daemon de SSH
 
 Port 10022
 
