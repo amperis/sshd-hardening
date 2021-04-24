@@ -63,8 +63,9 @@ Otros permisos si proceden dependiente del sistema
 ```
 Listen 192.168.1.100
 ````
-- Denegar la uthentificacion basada en contraseña y realizar en base a certificados
+- Denegar la uthentificacion basada en contraseña y realizarla en base a certificados. Recomendable no deshabilitar la autentificacion basada en contraseña hasta confirmar el funcionamiento en base a certificados
 ```
 AuthenticationMethods publickey
 PubkeyAuthentication yes
+PasswordAuthentication no
 ```
