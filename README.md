@@ -52,3 +52,19 @@ IgnoreRhosts yes
 ```
 X11forwarding no
 ```
+- Permitir hacer login solo a usuarios concretos
+```
+AllowUsers sysadmin operador
+```
+
+Otros permisos si proceden dependiente del sistema
+
+- Limitar la interfaz donde escuchará el daemon
+```
+Listen 192.168.1.100
+````
+- Denegar la uthentificacion basada en contraseña y realizar en base a certificados
+```
+AuthenticationMethods publickey
+PubkeyAuthentication yes
+```
