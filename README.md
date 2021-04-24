@@ -28,10 +28,10 @@ Banner /etc/ssh/ssh-banner-txt
 
 Ejemplo de banner:
 
-###############################################################
+==========================================================
 All connections are monitored and recorded
 Disconnect IMMEDIATELY if you are not an authorized user!
-###############################################################
+==========================================================
 
 7. Tiempo en seg de cierre de sesion automatico tras inactividad del usuario
 
