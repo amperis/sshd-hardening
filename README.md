@@ -14,6 +14,14 @@ MaxAuthTries 2
 ```
 PermitEmptyPasswords no
 ```
+- No permitir autentificacion con root
+```
+PermitRootLogin no 
+```
+Algun usuario tendrá que poder hacer sudo
+```
+sysadmin ALL=(ALL) NOPASSWD:ALL
+```
 - Numero de seg los cuales puede permanacer un usuario sin intruducir la contraseña de Login
 ```
 LoginGraceTime 20
